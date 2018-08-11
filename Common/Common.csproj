@@ -8,6 +8,9 @@
     <PackageReference Include="WindowsAzure.Storage" Version="8.6.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Repository\IRepository.cs" />
+  </ItemGroup>
   <Import Project="../ImgBot.targets" />
 
 </Project>

@@ -18,6 +18,10 @@
       </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Models\GitHubHook.cs" />
+    <Compile Remove="Controllers\HookController.cs" />
+  </ItemGroup>
   <Import Project="../ImgBot.targets" />
 
 </Project>
